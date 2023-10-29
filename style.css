@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    /* height: 12vh; */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+}
+
+.navbar button{
+    width: 100px;
+    padding: 10px;
+    background-color: #4f2ee8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.navbar button:hover{
+    background-color: #C4A63C;
+    color: black;
+}
+
+.container{
+    display: flex;
+}
+
+.left-container{
+    width: 25%;
+    background-color: white;
+}
+
+.books-lists{
+    max-height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.books-lists ul{
+    list-style: none;
+    gap: 20px;
+    color: #4e4d4e;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.books-lists ul li{
+    margin-top: 20px;
+}
+
+.right-container{
+    width: 75%;
+    background-color:white;
+    padding: 30px;
+}
+
+.right-container h1 span{
+    color: #4f2ee8;
+}
+
+.support-box{
+    height: 70vh;
+    background-color: blueviolet;
+}
+
+.books-ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.book{
+    width: 140px;
+    height: 240px;
+}
+
+.books-container h4{
+    color: #4e4d4e;
+}
+
+.book img{
+    width: 100%;
+    height: 70%;
+    border-radius: 3px;
+}
+
+.book p{
+    color: #4e4d4e;
+    font-size: 0.8rem;
+}
+
+.books-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.see-more{
+    margin-top: 20px;
+    width: 90px;
+    align-self: flex-end;
+    margin-right: 50px;
+    padding: 12px;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid #4f2ee8;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.see-more:hover{
+    background-color: #4f2ee8;
+    color: white;
+    border: none;
+}
